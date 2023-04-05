@@ -30,13 +30,13 @@ if uploaded_file is not None:
 
     # Create checkboxes for each question
     show_q1 = st.checkbox("1.How will you hide the indexes of the dataframe?.")
-    show_q2 = st.checkbox("2. How can we set the caption / heading on the dataframe?")
-    show_q3 = st.checkbox("3. Show the records related with the districts - New Delhi , Lucknow , Jaipur.")
-    show_q4 = st.checkbox("4. Calculate state-wise total number of popluation and population with different religions.")
-    show_q5 = st.checkbox("5. How many Male Workers were there in Maharashtra state ?")
-    show_q6 = st.checkbox("6. How to set a column as index of the dataframe ?")
-    q7a = st.checkbox("7a. Add a Suffix to the column names.")
-    q7b = st.checkbox("7b. Add a Prefix to the column names.")
+    show_q2 = st.checkbox(" 2. How can we set the caption / heading on the dataframe?")
+    show_q3 = st.checkbox(" 3. Show the records related with the districts - New Delhi , Lucknow , Jaipur.")
+    show_q4 = st.checkbox(" 4. Calculate state-wise total number of popluation and population with different religions.")
+    show_q5 = st.checkbox(" 5. How many Male Workers were there in Maharashtra state ?")
+    show_q6 = st.checkbox(" 6. How to set a column as index of the dataframe ?")
+    q7a = st.checkbox(" 7a. Add a Suffix to the column names.")
+    q7b = st.checkbox(" 7b. Add a Prefix to the column names.")
     if show_q1:
         st.write(data.style.hide_index())
     if show_q2:
